@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Painless</string>
+
+    <string-array name="days_of_week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+
+    <string-array name="days_of_month">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+    //Validations
+    <string name="blank_name_error">Name can not be blank</string>
+    <string name="email_null_error">Email field can not be blank</string>
+    <string name="email_error">Please enter valid email ID</string>
+    <string name="error_message">Please enter valid Message</string>
+    <string name="password_null_error">Password can not be blank</string>
+    <string name="password_error">Please enter password atleast 6 characters long</string>
+    <string name="mobile_blanck_error">Mobile number field can not be blank</string>
+    <string name="mobile_number_error">Please enter valid Mobile number</string>
+    <string name="no_internet_message">No internet connection.</string>
+
+    <string name="usernamerror">Enter username</string>
+    <string name="userphoneerror">Enter phone number</string>
+    <string name="passerror">Enter Password</string>
+
+    <string name="reset">Reset</string>
+    <string name="switch_camera">Switch</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="done">Done</string>
+    <string name="video_path">Video path:</string>
+    <string name="video_too_short">Video is too short.</string>
+    <string name="initiating">Initiating…</string>
+    <string name="processing">Processing…</string>
+    <string name="please_wait">Please wait</string>
+    <string name="permissions_denied_exit">Permissions denied, exit.</string>
+</resources>

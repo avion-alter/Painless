@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "224555346579",
+    "firebase_url": "https://painless-cd03b.firebaseio.com",
+    "project_id": "painless-cd03b",
+    "storage_bucket": "painless-cd03b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224555346579:android:9f269fe99225c691dd3b66",
+        "android_client_info": {
+          "package_name": "com.ucsf.painless"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224555346579-di2em392aijrp29dgvn1isqm0vcfl916.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnmCJFvkx1xkB5XBCqLxEQQgWI2vVaTjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224555346579-di2em392aijrp29dgvn1isqm0vcfl916.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "224555346579-lqs2q1knnfnqn5ni262hurp1npuj818d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Painless-iOSApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

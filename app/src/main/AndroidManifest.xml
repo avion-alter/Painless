@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ucsf.painless">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.front" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:name=".ApplicationTest"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="true"
+        android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".view.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.LoginActivity"/>
+        <activity android:name=".view.DashboardActivity"/>
+        <activity android:name=".view.PainIntensityRatingActivity"/>
+        <activity android:name=".view.PainPleasantRatingActivity" />
+        <activity android:name=".view.PainReliefRatingActivity" />
+        <activity android:name=".view.McgillPainQuestionnaireActivity" />
+        <activity android:name=".view.McGillInfoActivity" />
+        <activity android:name=".view.SaveMcGillQuestionnaireActivity" />
+        <activity android:name=".view.MaleBodyActivity" />
+        <activity android:name=".view.FemaleBodyActivity" />
+        <activity android:name=".view.BodyMapIntroActivity" />
+        <activity android:name=".view.FirstVideoRecordActivity" />
+        <activity android:name=".view.VideoIntroActivity" />
+        <activity android:name=".view.SecondVideoRecordActivity" />
+        <activity android:name=".view.ThirdVideoRecordActivity" />
+        <activity android:name=".view.MonthlyRandomActivity" />
+        <activity android:name=".view.MonthlyBeckAnxietyInventoryActivity" />
+        <activity android:name=".view.MonthlyClinicalImpressionActivity" />
+        <activity android:name=".view.MonthlyBeckDepressionInventoryActivity" />
+        <activity android:name=".view.RemainderSelectionActivity" />
+        <activity android:name=".view.RemainderActivity" />
+        <activity android:name=".view.DailyRemainderActivity" />
+        <activity android:name=".view.WeeklyRemainderActivity" />
+        <activity android:name=".view.MonthlyRemainderActivity" />
+        <activity android:name=".view.SettingActivity" />
+        <activity android:name=".view.WeeklyReportOneActivity" />
+        <activity android:name=".view.WeeklyReportTwoActivity" />
+        <activity android:name=".view.WeeklyReportThreeActivity" />
+        <activity android:name=".view.WeeklyReportFourActivity" />
+        <activity android:name=".view.WeeklyReportFiveActivity" />
+        <activity android:name=".view.MoodRatingActivity" />
+        <activity android:name=".view.CongratulationsScreenActivity" />
+        <activity android:name=".view.ClipBoardActivity" />
+        <activity android:name=".view.BodyMapWebViewActivity" />
+        <activity android:name=".view.TrialInfoActivity" />
+        <activity android:name=".view.WebViewActivity" />
+
+        <meta-data
+            android:name="firebase_messaging_auto_init_enabled"
+            android:value="false" />
+        <meta-data
+            android:name="firebase_analytics_collection_enabled"
+            android:value="false" />
+
+
+
+        <service android:name=".FCMNotifications.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".FCMNotifications.MyJobService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

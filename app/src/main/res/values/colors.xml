@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DEEAFB</color>
+    <color name="colorPrimaryDark">#DEEAFB</color>
+    <color name="colorAccent">#DEEAFB</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="mild">#FEFC37</color>
+    <color name="moderate">#FCBE2C</color>
+    <color name="severe">#FB0C1A</color>
+    <color name="blue">#042049</color>
+    <color name="video_button">#02166C</color>
+    <color name="black">#000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chauthai.swipereveallayout.SwipeRevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipelayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:dragEdge="left"
+    app:mode="same_level">
+
+    <!--Swipe Layout-->
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#007DBD"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtEdit"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="#d2691e"
+            android:gravity="center"
+            android:text="EDIT"
+            android:visibility="gone"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/img_delete"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+
+            android:src="@drawable/delete"
+            android:layout_gravity="center"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <!--Main Layout-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="demo"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/text_zero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:padding="10dp"
+            android:background="@drawable/rounded_border_edittext"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="25dp"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/text_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:padding="10dp"
+            android:background="@drawable/rounded_border_edittext"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="25dp"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/text_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:padding="10dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/rounded_border_edittext"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:padding="10dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/rounded_border_edittext"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.50dp"
+        android:background="#000000"/>
+
+</com.chauthai.swipereveallayout.SwipeRevealLayout>
